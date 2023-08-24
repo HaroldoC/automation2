@@ -23,6 +23,8 @@ show_message_button.click()
 output_message = chrome_browser.find_element(By.ID, "display")
 assert "I AM EXTRA COOOOL" in output_message.text
 
+chrome_browser.quit()
+
 # from selenium import webdriver
 # from selenium.webdriver.chrome.service import Service as ChromeService
 
